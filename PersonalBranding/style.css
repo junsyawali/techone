@@ -1,0 +1,38 @@
+.text{
+    text-align: center;
+    font-size: 150%;
+}
+h4{
+    text-align: center;
+    color: rgb(65,105,225);
+}
+h3{
+    text-align: left;
+    color: rgb(65,105,225);
+}
+h2{
+    text-align: center;
+    color: rgb(65,105,225);
+    font-size: 200%;
+}
+h1{
+    text-align: center;
+
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(120, 123, 129, 0.582);
+    border-radius: 50px;
+    box-shadow: 0 6px 15px rgba(2, 78, 243, 0.3);
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+    border: 1ox solid black;
+    flex:1;
+}
